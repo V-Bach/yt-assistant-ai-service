@@ -17,6 +17,7 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], 
@@ -37,7 +38,7 @@ vector_db = Chroma(
 
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-flash-lite-latest", 
+    model="gemini-flash-latest", 
     temperature=0.3,
     max_retries=2, 
     google_api_key=os.getenv("GOOGLE_API_KEY")
@@ -125,7 +126,7 @@ async def process_video(data: VideoData):
                 print(f"✅ Bước 3 thành công: AI đã phản hồi sau {duration:.2f} giây.")
                 return {
                     "status": "success",
-                    "ai_analysis": response.content 
+                    "summary": response.content 
                 }
             else:
                 print("⚠️ CẢNH BÁO: AI kết nối thành công nhưng trả về nội dung RỖNG.")
