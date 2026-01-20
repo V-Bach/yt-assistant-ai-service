@@ -77,6 +77,3 @@ uvicorn main:app --reload --port 8000
 * `POST /ai/ask-anything`: Nhận câu hỏi từ người dùng và sử dụng RAG để trả lời dựa trên kiến thức video đã xem.
 * `GET /`: Kiểm tra trạng thái hoạt động của server.
 
----
-
-**Bạn có muốn tôi giúp viết tiếp file README cho 2 Repo còn lại (C# và Frontend) để đảm bảo bộ 3 này trông thật đồng bộ không?**
