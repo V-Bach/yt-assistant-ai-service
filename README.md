@@ -1,5 +1,9 @@
 # Youtube Learning Assistant - AI Analysis Service (Python Backend)
 
+DỰ ÁN NÀY LÀ ĐI KÈM VỚI 2 REPO NỮA ĐỂ CÓ THỂ CHẠY THÀNH CÔNG 
+yt-assistant-webext
+yt-assistant-core-api
+
 ## Tổng quan học thuật (Academic Overview)
 
 Dự án này đóng vai trò là **AI Engine** trong hệ thống hỗ trợ học tập qua video. Mục tiêu cốt lõi là chuyển đổi dữ liệu thô từ video (Transcripts) thành các cấu trúc kiến thức có hệ thống thông qua các kỹ thuật xử lý ngôn ngữ tự nhiên (NLP) tiên tiến.
