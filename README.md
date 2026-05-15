@@ -1,7 +1,9 @@
 # Youtube Learning Assistant - AI Analysis Service (Python Backend)
 
-DỰ ÁN NÀY LÀ ĐI KÈM VỚI 2 REPO NỮA ĐỂ CÓ THỂ CHẠY THÀNH CÔNG 
+DỰ ÁN NÀY LÀ ĐI KÈM VỚI 2 REPO NỮA ĐỂ CÓ THỂ CHẠY THÀNH CÔNG
+
 yt-assistant-webext
+
 yt-assistant-core-api
 
 ## Tổng quan học thuật (Academic Overview)
